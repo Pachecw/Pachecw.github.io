@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio — Gustavo Rocha
+# 🌐 Portfolio — Gustavo Rocha
 
 Portfólio pessoal desenvolvido para apresentar projetos práticos, formação acadêmica, habilidades técnicas e experiências extracurriculares. Desenvolvido com foco em uma estética técnica/minimalista inspirada em folhas milimetradas de engenharia, tipografia clara e arquitetura modular tipada com **TypeScript**.
 
