@@ -23,7 +23,7 @@ export default function Contact() {
         </a>
         <a
           className="contact-button"
-          href="/cv-gustavo-rocha.pdf"
+          href="/CV-Gt.pdf"
           target="_blank"
           rel="noreferrer"
         >
