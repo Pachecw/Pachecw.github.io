@@ -7,6 +7,8 @@ export default function Header() {
       <nav className="site-nav">
         <a href="#projetos">Projetos</a>
         <a href="#formacao">Formação</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#alem-da-sala">Atividades</a>
         <a href="#contato">Contato</a>
       </nav>
     </header>

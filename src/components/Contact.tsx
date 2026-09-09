@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section id="contato" className="contact">
       <h2>Contato</h2>
-      <p>Vamos conversar sobre um projeto?</p>
+      <p>Vamos conversar sobre uma oportunidade de estágio?</p>
       <div className="contact-links">
         <a
           className="contact-button"

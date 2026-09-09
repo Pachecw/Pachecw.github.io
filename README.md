@@ -29,6 +29,10 @@ Pra atualizar o conteúdo do site, normalmente basta editar os arquivos em
 Pontos para revisar antes de publicar:
 - Em `src/data/projects.ts`, troque o projeto placeholder (`terceiro-projeto`)
   pelo seu terceiro projeto real.
+- Em `src/data/projects.ts`, troque os valores de `repoUrl`
+  (`SEU-REPOSITORIO-AQUI`) pelas URLs reais dos repositórios no GitHub. Um
+  projeto só vira card clicável quando tem `repoUrl` preenchido — sem esse
+  campo, o card fica normal (não clicável).
 - Em `src/components/Contact.tsx`, troque a URL do LinkedIn
   (`SEU-USUARIO-AQUI`) pela sua de verdade.
 

@@ -12,9 +12,12 @@ export default function Hero() {
       </div>
 
       <div className="spec-block">
-        <svg className="spec-frame" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <rect x="0.5" y="0.5" width="99" height="99" />
-        </svg>
+        
+        <span className="spec-frame-line spec-frame-top" />
+        <span className="spec-frame-line spec-frame-right" />
+        <span className="spec-frame-line spec-frame-bottom" />
+        <span className="spec-frame-line spec-frame-left" />
+        
         <dl className="spec-rows">
           <div className="spec-row">
             <dt>Nome</dt>
