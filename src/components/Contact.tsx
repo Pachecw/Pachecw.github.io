@@ -15,11 +15,19 @@ export default function Contact() {
         {/* Troque pelo link real do seu perfil do LinkedIn */}
         <a
           className="contact-button"
-          href="https://www.linkedin.com/in/gustavo-pacheco-bb04bb322"
+          href="https://www.linkedin.com/in/SEU-USUARIO-AQUI"
           target="_blank"
           rel="noreferrer"
         >
           LinkedIn
+        </a>
+        <a
+          className="contact-button"
+          href="/cv-gustavo-rocha.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Currículo (PDF)
         </a>
       </div>
     </section>

@@ -7,7 +7,7 @@
   --line: #c9d3d1;
   --blueprint: #2b6cb0;
   --signal: #c1440e;
-  --content-width: 1300px;
+  --content-width: 1120px;
   --font-display: 'Space Grotesk', sans-serif;
   --font-body: 'IBM Plex Sans', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
@@ -164,13 +164,21 @@ a {
 }
 
 @keyframes draw-x {
-  from { transform: scaleX(0); }
-  to { transform: scaleX(1); }
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
 }
 
 @keyframes draw-y {
-  from { transform: scaleY(0); }
-  to { transform: scaleY(1); }
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
 }
 
 .spec-rows {
@@ -425,6 +433,7 @@ h2 {
 
 .contact-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   margin-top: 20px;
 }
@@ -453,8 +462,8 @@ h2 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .spec-frame rect {
+  .spec-frame-line {
     animation: none;
-    stroke-dashoffset: 0;
+    transform: none;
   }
 }
