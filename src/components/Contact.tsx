@@ -15,7 +15,7 @@ export default function Contact() {
         {/* Troque pelo link real do seu perfil do LinkedIn */}
         <a
           className="contact-button"
-          href="https://www.linkedin.com/in/SEU-USUARIO-AQUI"
+          href="https://www.linkedin.com/in/gustavo-oliveira-pacheco-rocha-bb04bb322"
           target="_blank"
           rel="noreferrer"
         >
