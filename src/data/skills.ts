@@ -4,11 +4,11 @@ import type { SkillCategory } from '../types'
 export const skillCategories: SkillCategory[] = [
   {
     name: 'Linguagens de Programação',
-    items: ['Python', 'Java', 'C/C++', 'SQL', 'Kotlin', 'JavaScript'],
+    items: ['Python', 'Java', 'C/C++', 'SQL', 'Kotlin', 'JavaScript', 'TypeScript'],
   },
   {
     name: 'Bancos de Dados',
-    items: ['MySQL', 'MongoDB'],
+    items: ['MySQL', 'MongoDB', 'PostgreSQL'],
   },
   {
     name: 'Ferramentas',
