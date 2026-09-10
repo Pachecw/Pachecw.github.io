@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section id="contato" className="contact">
       <h2>Contato</h2>
-      <p>Vamos conversar sobre uma oportunidade de estágio?</p>
+      <p>Vamos conversar sobre uma oportunidade?</p>
       <div className="contact-links">
         <a
           className="contact-button"
@@ -12,7 +12,7 @@ export default function Contact() {
         >
           GitHub
         </a>
-        {/* Troque pelo link real do seu perfil do LinkedIn */}
+        
         <a
           className="contact-button"
           href="https://www.linkedin.com/in/gustavo-oliveira-pacheco-rocha-bb04bb322"
@@ -29,6 +29,8 @@ export default function Contact() {
         >
           Currículo (PDF)
         </a>
+        <span className="contact-static">gutyrocha145@gmail.com</span>
+        
       </div>
     </section>
   )

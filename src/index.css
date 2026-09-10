@@ -465,6 +465,15 @@ h2 {
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 
+.contact-static {
+  display: inline-block;
+  padding: 12px 22px;
+  border: 2px dashed var(--ink-soft);
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
 .contact-button:hover {
   background-color: var(--ink);
   color: var(--paper);
